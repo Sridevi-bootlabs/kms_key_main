@@ -68,7 +68,7 @@ resource "aws_kms_key" "primary" {
   deletion_window_in_days = var.primary_deletion_window_in_days
   multi_region            = true
   # key_rotation_enabled = true
-  enable_key_rotation = true
+ e nable_key_rotation = true
 }
 resource "aws_kms_replica_key" "replica" {
   description             = var.replica_description
